@@ -196,7 +196,11 @@ section > p{
     padding: 1rem;
 }
 
-.grid-item-1, .grid-item-2, .grid-item-3, .grid-item-3, .grid-item-4{
+.grid-item-1, 
+.grid-item-2, 
+.grid-item-3, 
+.grid-item-3, 
+.grid-item-4{
     border-radius: 1rem;
     padding: 3.5rem;
     margin: 0 auto;
@@ -233,7 +237,7 @@ table, th, td{
     margin-bottom: 0.5rem;
 }
 
-th{
+table th{
     background-color:var(--yellow);
     border-color: var(--yellow);
     font-family: 'Inter';
@@ -242,7 +246,7 @@ th{
     font-style: normal;
 }
 
-td{
+table td{
     background-color: var(--white);
     border-color:var(--yellow);
     font-family: 'Inter';
